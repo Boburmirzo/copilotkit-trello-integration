@@ -2,10 +2,10 @@
 
 ## Overview
 
-The Speaker Events Management Assistant is a React application that integrates with Trello and CopilotKit to manage speaker proposals and talks.
+The Speaker Events Management Assistant is a React application that integrates with [Trello](https://trello.com/) and [CopilotKit](https://www.copilotkit.ai/) to manage speaker proposals and talks.
 The Speaker Events Management Assistant will:
 
-- Allow speakers to view open calls for proposals as cards in a Trello board.
+- Allow speakers to view open calls for proposals as cards on a Trello board.
 - Display submitted talks (which are also cards) from Trello.
 - Enable speakers to add new talk proposals to the Trello board.
 
