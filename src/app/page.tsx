@@ -48,9 +48,9 @@ export default function SpeakerManager() {
         required: true,
       }
     ],
-    handler: async (params: { listId: string; talkTitle: string; talkDescription: string }) => {
-      const { listId, talkTitle, talkDescription } = params;
-      console.log(params);
+    handler: async ({ listId, talkTitle, talkDescription }) => {
+      console.log("testsfdsfs");
+      // const { listId, talkTitle, talkDescription } = params;
       await addCard(listId, talkTitle, talkDescription);
       setCards(await getCards(listId));
     },
